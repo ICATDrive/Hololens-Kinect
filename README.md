@@ -35,7 +35,7 @@ The scene should have 5 things in the hierarchy:
 1. Directional Light
 2. Sharing (Empty GameObject with 4 scripts attached)
    * **SharingStage.cs** - From HoloToolkit Sharing. You will need to change the Server Address here
-   * **SharingSessionTracker.cs** - From HoloToolkit Sharing. 
+   * **ServerSessionsTracker.cs** - From HoloToolkit Sharing. 
    * **AutoJoinSession.cs** - From HoloToolkit Sharing.
    * **CustomMessages2.cs** - Modified from HoloToolkit Sharing. Allows for customized messages to be broadcasted. In this case, body tracking IDs and joint data.
 3. BodyManager (Empty GameObject with 3 scripts attached)
